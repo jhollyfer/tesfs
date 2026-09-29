@@ -1,4 +1,4 @@
-// Executar: node condicionais/exemplo.ts
+// Executar: node typescript/condicionais/exemplo.ts (se tiver na raiz)
 import { input } from '#core/input.ts'
 
 const sorteado = 1

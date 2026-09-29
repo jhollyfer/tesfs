@@ -1,4 +1,4 @@
-// Executar: node repeticoes/exemplo.ts
+// Executar: node typescript/repeticoes/exemplo.ts (se tiver na raiz)
 import { input } from '#core/input.ts'
 
 let contador = 0
