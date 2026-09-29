@@ -1,0 +1,20 @@
+algoritmo "Primeiro Programa"
+
+var
+  sorteado, numero: inteiro
+
+inicio
+
+  sorteado <- 1
+  escreval("Digite um numero: ")
+  leia(numero)
+
+  se (numero == sorteado) entao
+    escreval("Você ganhou!")
+  fimse
+
+  se (numero != sorteado) entao
+    escreval("Você perdeu!")
+  fimse
+
+fimalgoritmo
