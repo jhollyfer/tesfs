@@ -1,0 +1,11 @@
+Questão 10
+
+Algoritmo "Consumo"
+Var
+   km, litros, consumo: real
+Início
+   Leia(km)
+   Leia(litros)
+   consumo <- km / litros
+   Escreva("Consumo: ", consumo, " km/l")
+Fim

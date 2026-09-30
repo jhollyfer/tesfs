@@ -1,0 +1,21 @@
+Questão 17
+
+Algoritmo "Pagamento"
+Var
+   valor, total: real
+   forma: inteiro
+Início
+   Leia(valor)
+   Leia(forma)
+   Se forma = 1 Então
+      total <- valor - (valor * 0.10)
+   Senão
+      Se forma = 2 Então
+         total <- valor + (valor * 0.05)
+      Senão
+         total <- valor
+         Escreva("Forma de pagamento inválida")
+      FimSe
+   FimSe
+   Escreva("Total: ", total)
+Fim

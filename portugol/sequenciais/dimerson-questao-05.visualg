@@ -1,0 +1,11 @@
+Questão 5
+
+Algoritmo "Desconto"
+Var
+   preco, desconto, final: real
+Início
+   Leia(preco)
+   desconto <- preco * 0.15
+   final <- preco - desconto
+   Escreva("Valor com desconto: ", final)
+Fim

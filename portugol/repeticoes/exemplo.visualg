@@ -15,3 +15,201 @@ inicio
   fimenquanto
 
 fimalgoritmo
+
+Questão 21
+
+Algoritmo "UmACem"
+Var
+   i: inteiro
+Início
+   i <- 1
+   Enquanto i <= 100 Faça
+      Escreva(i)
+      i <- i + 1
+   FimEnquanto
+Fim
+
+
+Questão 22
+
+Algoritmo "Pares"
+Var
+   i: inteiro
+Início
+   i <- 0
+   Enquanto i <= 50 Faça
+      Escreva(i)
+      i <- i + 2
+   FimEnquanto
+Fim
+
+
+Questão 23
+
+Algoritmo "Tabuada"
+Var
+   numero, i, resultado: inteiro
+Início
+   Leia(numero)
+   i <- 1
+   Enquanto i <= 10 Faça
+      resultado <- numero * i
+      Escreva(numero, " x ", i, " = ", resultado)
+      i <- i + 1
+   FimEnquanto
+Fim
+
+
+Questão 24
+
+Algoritmo "DezNumeros"
+Var
+   i: inteiro
+   numero, soma, media: real
+Início
+   soma <- 0
+   i <- 1
+   Enquanto i <= 10 Faça
+      Leia(numero)
+      soma <- soma + numero
+      i <- i + 1
+   FimEnquanto
+   media <- soma / 10
+   Escreva("Soma: ", soma)
+   Escreva("Média: ", media)
+Fim
+
+
+Questão 25
+
+Algoritmo "Fatorial"
+Var
+   n, i, fatorial: inteiro
+Início
+   Leia(n)
+   fatorial <- 1
+   i <- 1
+   Enquanto i <= n Faça
+      fatorial <- fatorial * i
+      i <- i + 1
+   FimEnquanto
+   Escreva("Fatorial: ", fatorial)
+Fim
+
+
+Questão 26
+
+Algoritmo "AteZero"
+Var
+   numero, soma: real
+   quantidade: inteiro
+Início
+   soma <- 0
+   quantidade <- 0
+   Leia(numero)
+   Enquanto numero <> 0 Faça
+      soma <- soma + numero
+      quantidade <- quantidade + 1
+      Leia(numero)
+   FimEnquanto
+   Escreva("Quantidade: ", quantidade)
+   Escreva("Soma: ", soma)
+Fim
+
+
+Questão 27
+
+Algoritmo "Idades"
+Var
+   i, idade, menores, adultos, idosos: inteiro
+Início
+   menores <- 0
+   adultos <- 0
+   idosos <- 0
+   i <- 1
+   Enquanto i <= 20 Faça
+      Leia(idade)
+      Se idade < 18 Então
+         menores <- menores + 1
+      Senão
+         Se idade >= 60 Então
+            idosos <- idosos + 1
+         Senão
+            adultos <- adultos + 1
+         FimSe
+      FimSe
+      i <- i + 1
+   FimEnquanto
+   Escreva("Menores: ", menores)
+   Escreva("Adultos: ", adultos)
+   Escreva("Idosos: ", idosos)
+Fim
+
+
+Questão 28
+
+Algoritmo "Primo"
+Var
+   n, divisor, quantidadeDivisores: inteiro
+Início
+   Leia(n)
+   quantidadeDivisores <- 0
+   divisor <- 1
+   Enquanto divisor <= n Faça
+      Se n % divisor = 0 Então
+         quantidadeDivisores <- quantidadeDivisores + 1
+      FimSe
+      divisor <- divisor + 1
+   FimEnquanto
+   Se quantidadeDivisores = 2 Então
+      Escreva("É primo")
+   Senão
+      Escreva("Não é primo")
+   FimSe
+Fim
+
+
+Questão 29
+
+Algoritmo "Fibonacci"
+Var
+   limite, a, b, proximo: inteiro
+Início
+   Leia(limite)
+   a <- 0
+   b <- 1
+   Enquanto a <= limite Faça
+      Escreva(a)
+      proximo <- a + b
+      a <- b
+      b <- proximo
+   FimEnquanto
+Fim
+
+
+Questão 30
+
+Algoritmo "Caixa"
+Var
+   preco, total, maior, pago, troco: real
+   quantidade: inteiro
+Início
+   total <- 0
+   quantidade <- 0
+   maior <- 0
+   Leia(preco)
+   Enquanto preco <> 0 Faça
+      total <- total + preco
+      quantidade <- quantidade + 1
+      Se preco > maior Então
+         maior <- preco
+      FimSe
+      Leia(preco)
+   FimEnquanto
+   Leia(pago)
+   troco <- pago - total
+   Escreva("Quantidade: ", quantidade)
+   Escreva("Total: ", total)
+   Escreva("Item mais caro: ", maior)
+   Escreva("Troco: ", troco)
+Fim

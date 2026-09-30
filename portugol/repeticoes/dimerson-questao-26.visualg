@@ -1,0 +1,18 @@
+Questão 26
+
+Algoritmo "AteZero"
+Var
+   numero, soma: real
+   quantidade: inteiro
+Início
+   soma <- 0
+   quantidade <- 0
+   Leia(numero)
+   Enquanto numero <> 0 Faça
+      soma <- soma + numero
+      quantidade <- quantidade + 1
+      Leia(numero)
+   FimEnquanto
+   Escreva("Quantidade: ", quantidade)
+   Escreva("Soma: ", soma)
+Fim

@@ -1,0 +1,13 @@
+Questão 14
+
+Algoritmo "Votacao"
+Var
+   idade: inteiro
+Início
+   Leia(idade)
+   Se idade >= 16 Então
+      Escreva("Pode votar")
+   Senão
+      Escreva("Não pode votar")
+   FimSe
+Fim

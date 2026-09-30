@@ -1,0 +1,12 @@
+Questão 4
+
+Algoritmo "MediaTresNotas"
+Var
+   n1, n2, n3, media: real
+Início
+   Leia(n1)
+   Leia(n2)
+   Leia(n3)
+   media <- (n1 + n2 + n3) / 3
+   Escreva("Média: ", media)
+Fim

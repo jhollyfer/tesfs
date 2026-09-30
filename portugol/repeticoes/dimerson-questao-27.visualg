@@ -1,0 +1,27 @@
+Questão 27
+
+Algoritmo "Idades"
+Var
+   i, idade, menores, adultos, idosos: inteiro
+Início
+   menores <- 0
+   adultos <- 0
+   idosos <- 0
+   i <- 1
+   Enquanto i <= 20 Faça
+      Leia(idade)
+      Se idade < 18 Então
+         menores <- menores + 1
+      Senão
+         Se idade >= 60 Então
+            idosos <- idosos + 1
+         Senão
+            adultos <- adultos + 1
+         FimSe
+      FimSe
+      i <- i + 1
+   FimEnquanto
+   Escreva("Menores: ", menores)
+   Escreva("Adultos: ", adultos)
+   Escreva("Idosos: ", idosos)
+Fim

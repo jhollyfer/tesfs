@@ -1,0 +1,16 @@
+Questão 29
+
+Algoritmo "Fibonacci"
+Var
+   limite, a, b, proximo: inteiro
+Início
+   Leia(limite)
+   a <- 0
+   b <- 1
+   Enquanto a <= limite Faça
+      Escreva(a)
+      proximo <- a + b
+      a <- b
+      b <- proximo
+   FimEnquanto
+Fim

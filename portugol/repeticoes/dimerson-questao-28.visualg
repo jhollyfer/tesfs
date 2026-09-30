@@ -1,0 +1,21 @@
+Questão 28
+
+Algoritmo "Primo"
+Var
+   n, divisor, quantidadeDivisores: inteiro
+Início
+   Leia(n)
+   quantidadeDivisores <- 0
+   divisor <- 1
+   Enquanto divisor <= n Faça
+      Se n % divisor = 0 Então
+         quantidadeDivisores <- quantidadeDivisores + 1
+      FimSe
+      divisor <- divisor + 1
+   FimEnquanto
+   Se quantidadeDivisores = 2 Então
+      Escreva("É primo")
+   Senão
+      Escreva("Não é primo")
+   FimSe
+Fim

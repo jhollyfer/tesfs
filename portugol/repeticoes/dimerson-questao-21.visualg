@@ -1,0 +1,12 @@
+Questão 21
+
+Algoritmo "UmACem"
+Var
+   i: inteiro
+Início
+   i <- 1
+   Enquanto i <= 100 Faça
+      Escreva(i)
+      i <- i + 1
+   FimEnquanto
+Fim

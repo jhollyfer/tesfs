@@ -1,0 +1,10 @@
+Questão 7
+
+Algoritmo "Temperatura"
+Var
+   celsius, fahrenheit: real
+Início
+   Leia(celsius)
+   fahrenheit <- celsius * 9 / 5 + 32
+   Escreva("Fahrenheit: ", fahrenheit)
+Fim

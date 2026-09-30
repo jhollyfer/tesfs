@@ -1,0 +1,17 @@
+Questão 15
+
+Algoritmo "SituacaoAluno"
+Var
+   media: real
+Início
+   Leia(media)
+   Se media >= 7 Então
+      Escreva("Aprovado")
+   Senão
+      Se media >= 5 Então
+         Escreva("Recuperação")
+      Senão
+         Escreva("Reprovado")
+      FimSe
+   FimSe
+Fim

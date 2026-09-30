@@ -10,3 +10,141 @@ inicio
   escreva("Olá, ", nome, "!")
 
 fimalgoritmo
+
+Questão 1
+
+Algoritmo "Saudacao"
+Var
+   nome, cidade: caractere
+Início
+   Escreva("Digite seu nome:")
+   Leia(nome)
+   Escreva("Digite sua cidade:")
+   Leia(cidade)
+   Escreva("Olá ", nome, ", de ", cidade)
+Fim
+
+
+Questão 2
+
+Algoritmo "Operacoes"
+Var
+   n1, n2, soma, sub, mult, div: real
+Início
+   Leia(n1)
+   Leia(n2)
+   soma <- n1 + n2
+   sub <- n1 - n2
+   mult <- n1 * n2
+   div <- n1 / n2
+   Escreva("Soma: ", soma)
+   Escreva("Subtração: ", sub)
+   Escreva("Multiplicação: ", mult)
+   Escreva("Divisão: ", div)
+Fim
+
+
+Questão 3
+
+Algoritmo "Retangulo"
+Var
+   base, altura, area, perimetro: real
+Início
+   Leia(base)
+   Leia(altura)
+   area <- base * altura
+   perimetro <- 2 * (base + altura)
+   Escreva("Área: ", area)
+   Escreva("Perímetro: ", perimetro)
+Fim
+
+
+Questão 4
+
+Algoritmo "MediaTresNotas"
+Var
+   n1, n2, n3, media: real
+Início
+   Leia(n1)
+   Leia(n2)
+   Leia(n3)
+   media <- (n1 + n2 + n3) / 3
+   Escreva("Média: ", media)
+Fim
+
+
+Questão 5
+
+Algoritmo "Desconto"
+Var
+   preco, desconto, final: real
+Início
+   Leia(preco)
+   desconto <- preco * 0.15
+   final <- preco - desconto
+   Escreva("Valor com desconto: ", final)
+Fim
+
+
+Questão 6
+
+Algoritmo "SalarioBruto"
+Var
+   horas, valorHora, salario: real
+Início
+   Leia(horas)
+   Leia(valorHora)
+   salario <- horas * valorHora
+   Escreva("Salário bruto: ", salario)
+Fim
+
+
+Questão 7
+
+Algoritmo "Temperatura"
+Var
+   celsius, fahrenheit: real
+Início
+   Leia(celsius)
+   fahrenheit <- celsius * 9 / 5 + 32
+   Escreva("Fahrenheit: ", fahrenheit)
+Fim
+
+
+Questão 8
+
+Algoritmo "ConversaoMoeda"
+Var
+   reais, cotacao, pesos: real
+Início
+   Leia(reais)
+   Leia(cotacao)
+   pesos <- reais * cotacao
+   Escreva("Valor em pesos colombianos: ", pesos)
+Fim
+
+
+Questão 9
+
+Algoritmo "IMC"
+Var
+   peso, altura, imc: real
+Início
+   Leia(peso)
+   Leia(altura)
+   imc <- peso / (altura * altura)
+   Escreva("IMC: ", imc)
+Fim
+
+
+Questão 10
+
+Algoritmo "Consumo"
+Var
+   km, litros, consumo: real
+Início
+   Leia(km)
+   Leia(litros)
+   consumo <- km / litros
+   Escreva("Consumo: ", consumo, " km/l")
+Fim

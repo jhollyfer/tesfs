@@ -1,0 +1,17 @@
+Questão 2
+
+Algoritmo "Operacoes"
+Var
+   n1, n2, soma, sub, mult, div: real
+Início
+   Leia(n1)
+   Leia(n2)
+   soma <- n1 + n2
+   sub <- n1 - n2
+   mult <- n1 * n2
+   div <- n1 / n2
+   Escreva("Soma: ", soma)
+   Escreva("Subtração: ", sub)
+   Escreva("Multiplicação: ", mult)
+   Escreva("Divisão: ", div)
+Fim

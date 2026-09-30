@@ -1,0 +1,18 @@
+Questão 24
+
+Algoritmo "DezNumeros"
+Var
+   i: inteiro
+   numero, soma, media: real
+Início
+   soma <- 0
+   i <- 1
+   Enquanto i <= 10 Faça
+      Leia(numero)
+      soma <- soma + numero
+      i <- i + 1
+   FimEnquanto
+   media <- soma / 10
+   Escreva("Soma: ", soma)
+   Escreva("Média: ", media)
+Fim

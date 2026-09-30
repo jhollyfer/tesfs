@@ -1,0 +1,12 @@
+Questão 22
+
+Algoritmo "Pares"
+Var
+   i: inteiro
+Início
+   i <- 0
+   Enquanto i <= 50 Faça
+      Escreva(i)
+      i <- i + 2
+   FimEnquanto
+Fim
