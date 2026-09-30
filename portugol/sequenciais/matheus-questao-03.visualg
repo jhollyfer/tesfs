@@ -1,0 +1,17 @@
+algoritmo "Retangulo"
+
+var
+  base, altura, area, perimetro: real
+
+início
+
+  escreval("Digite a base")
+  leia(base)
+  escreval("Digite a altura")
+  leia(altura)
+  area <- base * altura
+  perimetro <- 2 * (base + altura)
+  escreval("Área: ", area)
+  escreval("Perímetro: ", perimetro)
+
+fimalgoritmo

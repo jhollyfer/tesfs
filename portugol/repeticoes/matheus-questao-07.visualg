@@ -1,0 +1,29 @@
+algoritmo "Faixa etaria"
+
+var
+  contador, idade, adulto, idosos, menores: inteiro
+
+  inicio
+    contador <- 1
+    adulto <- 0
+    idosos <- 0
+    menores <- 0
+    enquanto contador <= 10 faça
+      escreval("Digite a idade: ")
+      leia(idade)
+      se idade < 18 então
+        menores <- menores + 1
+      senão
+        se idade >= 60 então
+          idosos <- idosos + 1
+        senão
+          adulto <- adulto + 1
+        fimse
+      fimse
+      contador <- contador + 1
+    fim
+    escreval("Adultos: ", adulto)
+    escreval("Menores: ", menores)
+    escreval("Idosos: ", idosos)
+
+  fim

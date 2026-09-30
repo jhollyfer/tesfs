@@ -1,0 +1,15 @@
+algoritmo "Conversao"
+
+var
+  reais, cotacao, pesos: real
+
+inicio
+
+  escreval("Digite o valor em reais: ")
+  leia(reais)
+  escreval("Digite a cotação (pesos colombianos por 1 real): ")
+  leia(cotacao)
+  pesos <- reais * cotacao
+  escreval("Valor em pesos colombianos: ", pesos)
+
+fimalgoritmo

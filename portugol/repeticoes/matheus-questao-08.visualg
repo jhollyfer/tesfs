@@ -1,0 +1,25 @@
+algoritmo "Numero Primo"
+
+var
+  numero, indice, divisores: inteiro
+
+  inicio
+
+    escreval("Digite um numero: ")
+    leia(numero)
+
+    divisores <- 0
+
+    para indice de 1 até numero faça
+      se (numero % indice) = 0 então
+        divisores <- divisores + 1
+      fimse
+    fimpara
+
+    se divisores = 2 então
+      escreval(numero, "é primo.")
+    senão
+      escreval(numero, "não é primo.")
+    fimse
+
+  fim

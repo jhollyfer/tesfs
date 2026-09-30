@@ -1,0 +1,21 @@
+algoritmo "Fibonacci"
+
+var
+  numero, anterior, atual, proximo, indice: inteiro
+
+  escreval("Digite um numero: ")
+  leia(numero)
+  anterior <- 0
+  atual <- 1
+  proximo <- 0
+  indice <- 1
+
+  enquanto indice <= numero faça
+    escreval(atual)
+    proximo <- atual + anterior
+    anterior <- atual
+    atual <- proximo
+    indice <- indice + 1
+  fimpara
+
+  fim

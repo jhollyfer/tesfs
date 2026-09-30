@@ -1,0 +1,29 @@
+algoritmo "Triangulo"
+
+var
+  ladoA, ladoB, ladoC: real
+
+inicio
+
+  escreval("Digite o ladoA")
+  leia(ladoA)
+  escreval("Digite o ladoB")
+  leia(ladoB)
+  escreval("Digite o ladoC")
+  leia(ladoC)
+
+  se (ladoA + ladoB > ladoC) e (ladoA + ladoC > ladoB) e (ladoB + ladoC > ladoA) entao
+    escreval("Os lados formam um triangulo")
+    se (ladoA = ladoB) e (ladoB = ladoC) entao
+      escreval("O triangulo é equilatero")
+      senao
+        se (ladoA = ladoB) ou (ladoB = ladoC) entao
+          escreval("O triangulo é isosceles")
+        senao
+          escreval("O triangulo é escaleno")
+        fimse
+      fimse
+    fimse
+  fimse
+
+fim

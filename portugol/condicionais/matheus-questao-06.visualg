@@ -1,0 +1,25 @@
+algoritmo "Qual o Número Maior"
+
+var
+  numero1, numero2, numero3, maior: inteiro
+
+inicio
+  escreval("Digite o primeiro número: ")
+  leia(numero1)
+  escreval("Digite o segundo número: ")
+  leia(numero2)
+  escreval("Digite o terceiro número: ")
+  leia(numero3)
+
+  maior <- numero1
+  se (numero2 > maior) entao
+    maior <- numero2
+  fimse
+
+  se (numero3 > maior) entao
+    maior <- numero3
+  fimse
+
+  escreval("O maior número é: " ,maior)
+
+fimalgoritmo

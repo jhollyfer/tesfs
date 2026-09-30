@@ -1,0 +1,15 @@
+algoritmo "Consumo de gasolina"
+
+var
+  km, litros, consumo: real
+
+inicio
+
+  escreval("Digite a distância percorrida: ")
+  leia(km)
+  escreval("Digite os litros gastos: ")
+  leia(litros)
+  consumo <- km / litros
+  escreval("O consumo de gasolina por km é: ", consumo)
+
+fimalgoritmo

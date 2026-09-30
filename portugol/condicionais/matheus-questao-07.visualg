@@ -1,0 +1,27 @@
+algoritmo "Metodo Pagamento"
+
+var
+ valorCompra, total: real
+ formaPagamento: inteiro
+
+inicio
+
+  escreval("Digite o valor da compra: ")
+  leia(valorCompra)
+  escreval("Digite a forma de pagamento (1 <- a vista, 2 <- a prazo): ")
+  leia(formaPagamento)
+
+  total <- valorCompra
+  se (formaPagamento = 1) entao
+    total <- valorCompra - (valorCompra * 0.10)
+    escreval("Total da compra com desconto: " , total)
+  senao
+    se (formaPagamento = 2) entao
+      total <- valorCompra + (valorCompra * 0.05)
+      escreval("Total da compra com juros: " , total)
+    fimse
+  fimse
+
+  escreval("Total: " , total)
+
+fimalgoritmo

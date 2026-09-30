@@ -1,0 +1,19 @@
+algoritmo "Mostrar soma, media de 10 numeros e mostrar o total"
+
+var
+  numero, media, soma, indice: real
+
+inicio
+  soma <- 0
+
+  para indice de 1 ate 10 faca
+    escreval("Digite um numero: " , indice)
+    leia(numero)
+    soma <- soma + numero
+  fimpara
+
+  media <- soma / 10
+  escreval("Media: ", media)
+  escreval("Soma: ", soma)
+
+fim

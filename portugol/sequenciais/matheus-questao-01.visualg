@@ -1,0 +1,14 @@
+algoritmo "Saudacao"
+
+var
+  nome, cidade: caractere
+
+início
+
+  escreval("Digite o nome")
+  leia(nome)
+  escreval("Digite a cidade")
+  leia(cidade)
+  escreval("Olá ", nome, ", de ", cidade)
+
+fimalgoritmo

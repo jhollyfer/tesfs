@@ -1,0 +1,14 @@
+algoritmo "Mostrar a tabuada"
+
+var
+  numero, indice, resultado: inteiro
+
+inicio
+  escreval("Digite um número: ")
+  leia(numero)
+  para indice de 1 ate 10 faca
+    resultado <- numero * indice
+    escreval(numero, " x ", indice, " = ", resultado)
+  fimpara
+
+fim

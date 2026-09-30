@@ -1,0 +1,19 @@
+algoritmo "Calcular Fatorial"
+
+var
+  numero, indice: inteiro
+  fatorial: real
+
+inicio
+
+  escreval("Digite um numero: ")
+  leia(numero)
+
+  fatorial <- 1
+  para indice de 1 ate numero faca
+    fatorial <- fatorial * indice
+  fimpara
+
+  escreval("Fatorial de ", numero, " = ", fatorial)
+
+fim

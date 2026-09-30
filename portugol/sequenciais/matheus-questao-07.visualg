@@ -1,0 +1,13 @@
+algoritmo "Celsius para Fahrenheit"
+
+var
+  celsius, fahrenheit: real
+
+inicio
+
+  escreval("Digite a temperatura em Celsius: ")
+  leia(celsius)
+  fahrenheit <- (celsius * 9 / 5) + 32
+  escreval("Temperatura em Fahrenheit: ", fahrenheit)
+
+fimalgoritmo

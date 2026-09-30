@@ -1,0 +1,18 @@
+algoritmo "Mostra o numero Maior"
+
+var
+  numero1, numero2: inteiro
+
+inicio
+  escreval("Digite o primeiro número: ")
+  leia(numero1)
+  escreval("Digite o segundo número: ")
+  leia(numero2)
+
+  se (numero1 > numero2) entao
+    escreval("O primeiro número é maior", numero1)
+  senao
+    escreval("O segundo número é maior", numero2)
+  fimse
+
+fimalgoritmo
