@@ -19,197 +19,30 @@ inicio
 
 fimalgoritmo
 
-Questão 11
-
-Algoritmo "PositivoNegativo"
-Var
-   numero: real
-Início
-   Leia(numero)
-   Se numero >= 0 Então
-      Escreva("Positivo")
-   Senão
-      Escreva("Negativo")
-   FimSe
-Fim
 
 
-Questão 12
-
-Algoritmo "ParImpar"
-Var
-   numero, resto: inteiro
-Início
-   Leia(numero)
-   resto <- numero % 2
-   Se resto = 0 Então
-      Escreva("Par")
-   Senão
-      Escreva("Ímpar")
-   FimSe
-Fim
 
 
-Questão 13
-
-Algoritmo "MaiorDois"
-Var
-   n1, n2, maior: real
-Início
-   Leia(n1)
-   Leia(n2)
-   Se n1 >= n2 Então
-      maior <- n1
-   Senão
-      maior <- n2
-   FimSe
-   Escreva("Maior: ", maior)
-Fim
 
 
-Questão 14
-
-Algoritmo "Votacao"
-Var
-   idade: inteiro
-Início
-   Leia(idade)
-   Se idade >= 16 Então
-      Escreva("Pode votar")
-   Senão
-      Escreva("Não pode votar")
-   FimSe
-Fim
 
 
-Questão 15
-
-Algoritmo "SituacaoAluno"
-Var
-   media: real
-Início
-   Leia(media)
-   Se media >= 7 Então
-      Escreva("Aprovado")
-   Senão
-      Se media >= 5 Então
-         Escreva("Recuperação")
-      Senão
-         Escreva("Reprovado")
-      FimSe
-   FimSe
-Fim
 
 
-Questão 16
-
-Algoritmo "MaiorTres"
-Var
-   n1, n2, n3, maior: real
-Início
-   Leia(n1)
-   Leia(n2)
-   Leia(n3)
-   maior <- n1
-   Se n2 > maior Então
-      maior <- n2
-   FimSe
-   Se n3 > maior Então
-      maior <- n3
-   FimSe
-   Escreva("Maior: ", maior)
-Fim
 
 
-Questão 17
-
-Algoritmo "Pagamento"
-Var
-   valor, total: real
-   forma: inteiro
-Início
-   Leia(valor)
-   Leia(forma)
-   Se forma = 1 Então
-      total <- valor - (valor * 0.10)
-   Senão
-      Se forma = 2 Então
-         total <- valor + (valor * 0.05)
-      Senão
-         total <- valor
-         Escreva("Forma de pagamento inválida")
-      FimSe
-   FimSe
-   Escreva("Total: ", total)
-Fim
 
 
-Questão 18
-
-Algoritmo "AumentoSalarial"
-Var
-   salario, aumento, novoSalario: real
-Início
-   Leia(salario)
-   Se salario <= 1000 Então
-      aumento <- salario * 0.20
-   Senão
-      Se salario <= 3000 Então
-         aumento <- salario * 0.10
-      Senão
-         aumento <- salario * 0.05
-      FimSe
-   FimSe
-   novoSalario <- salario + aumento
-   Escreva("Novo salário: ", novoSalario)
-Fim
 
 
-Questão 19
-
-Algoritmo "Triangulo"
-Var
-   a, b, c: real
-Início
-   Leia(a)
-   Leia(b)
-   Leia(c)
-   Se (a + b > c) E (a + c > b) E (b + c > a) Então
-      Se (a = b) E (b = c) Então
-         Escreva("Equilátero")
-      Senão
-         Se (a = b) OU (a = c) OU (b = c) Então
-            Escreva("Isósceles")
-         Senão
-            Escreva("Escaleno")
-         FimSe
-      FimSe
-   Senão
-      Escreva("Não formam um triângulo")
-   FimSe
-Fim
 
 
-Questão 20
 
-Algoritmo "NomeMes"
-Var
-   mes: inteiro
-Início
-   Leia(mes)
-   Escolha mes
-      Caso 1: Escreva("Janeiro")
-      Caso 2: Escreva("Fevereiro")
-      Caso 3: Escreva("Março")
-      Caso 4: Escreva("Abril")
-      Caso 5: Escreva("Maio")
-      Caso 6: Escreva("Junho")
-      Caso 7: Escreva("Julho")
-      Caso 8: Escreva("Agosto")
-      Caso 9: Escreva("Setembro")
-      Caso 10: Escreva("Outubro")
-      Caso 11: Escreva("Novembro")
-      Caso 12: Escreva("Dezembro")
-      Caso contrário: Escreva("Mês inválido")
-   FimEscolha
-Fim
+
+
+
+
+
+
+
+x

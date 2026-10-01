@@ -2,15 +2,17 @@ Questão 29
 
 Algoritmo "Fibonacci"
 Var
-   limite, a, b, proximo: inteiro
+   limite, anterior, atual, quantidade, proximo: inteiro
 Início
    Leia(limite)
-   a <- 0
-   b <- 1
-   Enquanto a <= limite Faça
-      Escreva(a)
-      proximo <- a + b
-      a <- b
-      b <- proximo
+   anterior <- 0
+   atual <- 1
+   quantidade <- 0
+   Enquanto quantidade < limite Faça
+      Escreva(anterior, " ")
+      proximo <- anterior + atual
+      anterior <- atual
+      atual <- proximo
+      quantidade <- quantidade + 1
    FimEnquanto
 Fim
