@@ -1,0 +1,15 @@
+Questão 13
+
+Algoritmo "MaiorDois"
+Var
+   n1, n2, maior: real
+Início
+   Leia(n1)
+   Leia(n2)
+   Se n1 >= n2 Então
+      maior <- n1
+   Senão
+      maior <- n2
+   FimSe
+   Escreva("Maior: ", maior)
+Fim

@@ -1,0 +1,26 @@
+Questão 30
+
+Algoritmo "Caixa"
+Var
+   preco, total, maior, pago, troco: real
+   quantidade: inteiro
+Início
+   total <- 0
+   quantidade <- 0
+   maior <- 0
+   Leia(preco)
+   Enquanto preco <> 0 Faça
+      total <- total + preco
+      quantidade <- quantidade + 1
+      Se preco > maior Então
+         maior <- preco
+      FimSe
+      Leia(preco)
+   FimEnquanto
+   Leia(pago)
+   troco <- pago - total
+   Escreva("Quantidade: ", quantidade)
+   Escreva("Total: ", total)
+   Escreva("Item mais caro: ", maior)
+   Escreva("Troco: ", troco)
+Fim

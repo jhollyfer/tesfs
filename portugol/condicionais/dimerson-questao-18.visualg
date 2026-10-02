@@ -1,0 +1,19 @@
+Questão 18
+
+Algoritmo "AumentoSalarial"
+Var
+   salario, aumento, novoSalario: real
+Início
+   Leia(salario)
+   Se salario <= 1000 Então
+      aumento <- salario * 0.20
+   Senão
+      Se salario <= 3000 Então
+         aumento <- salario * 0.10
+      Senão
+         aumento <- salario * 0.05
+      FimSe
+   FimSe
+   novoSalario <- salario + aumento
+   Escreva("Novo salário: ", novoSalario)
+Fim

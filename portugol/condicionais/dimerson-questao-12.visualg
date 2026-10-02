@@ -1,0 +1,14 @@
+Questão 12
+
+Algoritmo "ParImpar"
+Var
+   numero, resto: inteiro
+Início
+   Leia(numero)
+   resto <- numero % 2
+   Se resto = 0 Então
+      Escreva("Par")
+   Senão
+      Escreva("Ímpar")
+   FimSe
+Fim

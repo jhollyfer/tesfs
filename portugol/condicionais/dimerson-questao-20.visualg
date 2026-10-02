@@ -1,0 +1,23 @@
+Questão 19
+
+Algoritmo "Triangulo"
+Var
+   a, b, c: real
+Início
+   Leia(a)
+   Leia(b)
+   Leia(c)
+   Se (a + b > c) E (a + c > b) E (b + c > a) Então
+      Se (a = b) E (b = c) Então
+         Escreva("Equilátero")
+      Senão
+         Se (a = b) OU (a = c) OU (b = c) Então
+            Escreva("Isósceles")
+         Senão
+            Escreva("Escaleno")
+         FimSe
+      FimSe
+   Senão
+      Escreva("Não formam um triângulo")
+   FimSe
+Fim

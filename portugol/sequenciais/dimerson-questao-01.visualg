@@ -1,0 +1,12 @@
+Questão 1
+
+Algoritmo "Saudacao"
+Var
+   nome, cidade: caractere
+Início
+   Escreva("Digite seu nome:")
+   Leia(nome)
+   Escreva("Digite sua cidade:")
+   Leia(cidade)
+   Escreva("Olá ", nome, ", de ", cidade)
+Fim

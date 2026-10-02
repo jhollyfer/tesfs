@@ -1,0 +1,11 @@
+Questão 8
+
+Algoritmo "ConversaoMoeda"
+Var
+   reais, cotacao, pesos: real
+Início
+   Leia(reais)
+   Leia(cotacao)
+   pesos <- reais * cotacao
+   Escreva("Valor em pesos colombianos: ", pesos)
+Fim

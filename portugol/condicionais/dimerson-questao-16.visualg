@@ -1,0 +1,18 @@
+Questão 16
+
+Algoritmo "MaiorTres"
+Var
+   n1, n2, n3, maior: real
+Início
+   Leia(n1)
+   Leia(n2)
+   Leia(n3)
+   maior <- n1
+   Se n2 > maior Então
+      maior <- n2
+   FimSe
+   Se n3 > maior Então
+      maior <- n3
+   FimSe
+   Escreva("Maior: ", maior)
+Fim

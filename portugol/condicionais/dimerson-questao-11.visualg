@@ -1,0 +1,13 @@
+Questão 11
+
+Algoritmo "PositivoNegativo"
+Var
+   numero: real
+Início
+   Leia(numero)
+   Se numero >= 0 Então
+      Escreva("Positivo")
+   Senão
+      Escreva("Negativo")
+   FimSe
+Fim

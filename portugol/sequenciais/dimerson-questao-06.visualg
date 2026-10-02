@@ -1,0 +1,11 @@
+Questão 6
+
+Algoritmo "SalarioBruto"
+Var
+   horas, valorHora, salario: real
+Início
+   Leia(horas)
+   Leia(valorHora)
+   salario <- horas * valorHora
+   Escreva("Salário bruto: ", salario)
+Fim

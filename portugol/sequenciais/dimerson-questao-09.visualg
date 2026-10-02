@@ -1,0 +1,11 @@
+Questão 9
+
+Algoritmo "IMC"
+Var
+   peso, altura, imc: real
+Início
+   Leia(peso)
+   Leia(altura)
+   imc <- peso / (altura * altura)
+   Escreva("IMC: ", imc)
+Fim

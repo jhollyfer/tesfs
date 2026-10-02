@@ -1,0 +1,13 @@
+Questão 3
+
+Algoritmo "Retangulo"
+Var
+   base, altura, area, perimetro: real
+Início
+   Leia(base)
+   Leia(altura)
+   area <- base * altura
+   perimetro <- 2 * (base + altura)
+   Escreva("Área: ", area)
+   Escreva("Perímetro: ", perimetro)
+Fim
