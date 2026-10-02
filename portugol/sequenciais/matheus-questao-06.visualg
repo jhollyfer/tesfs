@@ -1,0 +1,15 @@
+algoritmo "Salario"
+
+var
+  horas, valorHora, salario: real
+
+inicio
+
+  escreval("Digite as horas trabalhadas")
+  leia(horas)
+  escreval("Digite o valor da hora")
+  leia(valorHora)
+  salario <- horas * valorHora
+  escreval("Salário bruto: ", salario)
+
+fimalgoritmo

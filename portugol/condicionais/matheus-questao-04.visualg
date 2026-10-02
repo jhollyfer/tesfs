@@ -1,0 +1,16 @@
+algoritmo "Pode Votar"
+
+var
+  idade: inteiro
+
+inicio
+  escreval("Digite sua idade: ")
+  leia(idade)
+
+  se (idade >= 16) entao
+    escreval("Você pode votar!")
+  senao
+    escreval("Você não pode votar!")
+  fimse
+
+fimalgoritmo

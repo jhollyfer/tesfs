@@ -1,0 +1,37 @@
+algoritmo "Caixa Registradora"
+
+var
+  preco, total, maisCaro, valorPago, troco: real
+  quantidade: inteiro
+inicio
+
+  total <- 0
+  quantidade <- 0
+  maisCaro <- 0
+  escreval("Digite o preço do item (0 para finalizar)")
+  leia(preco)
+  enquanto preco <> 0 faça
+    quantidade <- quantidade + 1
+    total <- total + preco
+    se preco > maisCaro então
+      maisCaro <- preco
+    fimse
+    escreval("Digite o preço do item (0 para finalizar)")
+    leia(preco)
+  fim enquanto
+
+  escreval("Quantidade de itens: ", quantidade)
+  escreval("Total: ", total)
+  escreval("Item mais caro: ", maisCaro)
+
+  escreval("Digite o valor pago")
+  leia(valorPago)
+
+  se valorPago >= total então
+    troco <- valorPago - total
+    escreval("Troco: ", troco)
+  senão
+    escreval("Valor pago insuficiente. Faltam: ", total - valorPago)
+  fimse
+
+fimalgoritmo

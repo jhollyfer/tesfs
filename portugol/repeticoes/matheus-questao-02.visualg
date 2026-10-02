@@ -1,0 +1,12 @@
+algoritmo "Pares de 0 a 50"
+
+var
+  indice: inteiro
+
+inicio
+  indice <- 0
+  para indice de 0 ate 50 passo 2 faca
+    escreval(indice)
+  fimpara
+
+fim

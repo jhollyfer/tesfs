@@ -1,0 +1,13 @@
+algoritmo "Desconto Produto"
+
+var
+  preco, valorFinal: real
+
+inicio
+
+  escreval("Digite o preço do produto: ")
+  leia(preco)
+  valorFinal <- preco - (preco * 0.15)
+  escreval("O valor do produto é: ", valorFinal)
+
+fimalgoritmo

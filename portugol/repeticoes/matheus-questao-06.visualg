@@ -1,0 +1,21 @@
+algoritmo "Ler ate 0"
+
+var
+  numero, soma, contador, quantidade: inteiro
+
+  inicio
+    soma <- 0
+    contador <- 0
+    escreval("Digite o número (0 para parar): ")
+    leia(numero)
+    enquanto numero <> 0 faça
+      soma <- soma + numero
+      contador <- contador + 1
+      escreval("Digite o número (0 para parar): ")
+      leia(numero)
+    fimenquanto
+    quantidade <- contador
+    escreval("Soma: ", soma)
+    escreval("A quantidade de números digitados: ", quantidade)
+
+  fim

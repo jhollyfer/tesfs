@@ -1,0 +1,23 @@
+algoritmo "Almento Salarial"
+
+var
+  salario, aumento, novoSalario: real
+
+inicio
+  escreval("Digite o salário: ")
+  leia(salario)
+
+  se (salario <= 1000) entao
+    aumento <- salario * 0.20
+  senao
+    se (salario <= 3000) entao
+      aumento <- salario * 0.10
+    senao
+      aumento <- salario * 0.05
+    fimse
+  fimse
+
+  escreval("Aumento: " , aumento)
+  escreval("Novo salário: " , novoSalario)
+
+fim
